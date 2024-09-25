@@ -17,4 +17,16 @@ public class NumberPrinterTest {
     {
         assertEquals("EVEN", printer.printWord(8, true));
     }
+
+    @Test
+    public void testPrimeEleven ()
+    {
+        assertEquals("EvenPrimeEleven", printer.printWord(22, false));
+    }
+
+    @Test
+    public void testPrimeELEVEN ()
+    {
+        assertEquals("EVENPRIMEELEVEN", printer.printWord(22, true));
+    }
 }
