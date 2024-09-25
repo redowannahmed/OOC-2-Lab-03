@@ -11,4 +11,10 @@ public class NumberPrinterTest {
     {
         assertEquals("Even", printer.printWord(8, false));
     }
+
+    @Test
+    public void testEVEN ()
+    {
+        assertEquals("EVEN", printer.printWord(8, true));
+    }
 }
